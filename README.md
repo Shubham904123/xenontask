@@ -17,7 +17,7 @@ Prerequisites
 Node.js and npm installed on your machine
 MongoDB installed and running
 Installation
-Clone the repository: git clone https://github.com/username/car-rental-website.git
+Clone the repository: git clone https://github.com/Shubham904123/xenontask
 Navigate to the project directory: cd car-rental-website
 Install dependencies: npm install
 Create a .env file in the project root directory and add the following environment variables:
