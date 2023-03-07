@@ -1,15 +1,9 @@
 This is a simple car rental website that allows users to search and book cars for rental.
 
-![project](https://user-images.githubusercontent.com/54353371/223450809-6d462752-856e-4c7a-8f1c-707074a43527.png)
 
 
-Features!
+Features
 User registration and login
-![login](https://user-images.githubusercontent.com/54353371/223451508-067f853b-81b2-46c1-861f-af2fcb6ea4e7.png)
-![signup](https://user-images.githubusercontent.com/54353371/223451702-e24b3701-9b68-4c17-a047-f34fdeeb0fcd.png)
-![contact](https://user-images.githubusercontent.com/54353371/223451730-75b64d7f-18c8-426e-9517-9b818d08541a.png)
-![ABOUT](https://user-images.githubusercontent.com/54353371/223451745-6b6f8208-29af-4ff7-8241-b9df933324a3.png)
-
 Car search functionality by location and dates
 Car booking and reservation
 Payment processing using credit/debit card
@@ -21,6 +15,53 @@ Node.js and Express for server-side development
 MongoDB for database management
 Stripe API for payment processing
 Getting Started
+Diagram
+.
+├── controllers
+│   ├── booking.js
+│   ├── car.js
+│   └── user.js
+├── models
+│   ├── booking.js
+│   ├── car.js
+│   └── user.js
+├── public
+│   ├── css
+│   │   ├── main.css
+│   │   └── ...
+│   ├── images
+│   │   ├── car1.jpg
+│   │   └── ...
+│   └── js
+│       ├── booking.js
+│       └── ...
+├── routes
+│   ├── booking.js
+│   ├── car.js
+│   ├── index.js
+│   └── user.js
+├── views
+│   ├── dashboard.ejs
+│   ├── index.ejs
+│   ├── login.ejs
+│   ├── register.ejs
+│   ├── search.ejs
+│   ├── success.ejs
+│   └── ...
+├── .env
+├── app.js
+├── package.json
+├── README.md
+└── ...
+controllers: Contains the business logic for the application.
+models: Contains the database schema and model definitions.
+public: Contains static assets such as images, CSS, and JavaScript files.
+routes: Contains the route definitions and controllers for handling HTTP requests.
+views: Contains the EJS templates used to render the HTML pages.
+.env: Contains the environment variables for the application.
+app.js: The main entry point for the application.
+package.json: Contains the dependencies and configuration for the application.
+README.md: This file.
 Prerequisites
 Node.js and npm installed on your machine
 MongoDB installed and running
@@ -38,3 +79,59 @@ The application can be deployed to a hosting platform such as Heroku or AWS Elas
 Acknowledgments
 This project was inspired by similar car rental websites
 Thanks to the developers of the technologies and libraries used in this project
+Project Structure
+java
+Copy code
+.
+├── controllers
+│   ├── booking.js
+│   ├── car.js
+│   └── user.js
+├── models
+│   ├── booking.js
+│   ├── car.js
+│   └── user.js
+├── public
+│   ├── css
+│   │   ├── main.css
+│   │   └── ...
+│   ├── images
+│   │   ├── car1.jpg
+│   │   └── ...
+│   └── js
+│       ├── booking.js
+│       └── ...
+├── routes
+│   ├── booking.js
+│   ├── car.js
+│   ├── index.js
+│   └── user.js
+├── views
+│   ├── dashboard.ejs
+│   ├── index.ejs
+│   ├── login.ejs
+│   ├── register.ejs
+│   ├── search.ejs
+│   ├── success.ejs
+│   └── ...
+├── .env
+├── app.js
+├── package.json
+├── README.md
+└── ...
+controllers: Contains the business logic for the application.
+models: Contains the database schema and model definitions.
+public: Contains static assets such as images, CSS, and JavaScript files.
+routes: Contains the route definitions and controllers for handling HTTP requests.
+views: Contains the EJS templates used to render the HTML pages.
+.env: Contains the environment variables for the application.
+app.js: The main entry point for the application.
+package.json: Contains the dependencies and configuration for the application.
+README.md: This file.
+Future Improvements
+Add more search options such as car type, price range, etc.
+Implement a rating and review system for cars.
+Add a notification system to notify users of their bookings and reservations.
+Improve the design and layout of the website.
+Allow users to cancel their bookings and receive refunds.
+Add more payment options such as PayPal and Apple Pay.
