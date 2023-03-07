@@ -9,7 +9,7 @@
 // })
 
 
-const db = 'mongodb+srv://admin:admin@cluster0.fe8izhn.mongodb.net/?retryWrites=true&w=majority';
+const db = 'mongodb+srv://admin:Shubham123@cluster0.fe8izhn.mongodb.net/?retryWrites=true&w=majority';
 
 const mongoose = require('mongoose');
 mongoose.connect(db , {
