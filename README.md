@@ -1,6 +1,8 @@
 This is a simple car rental website that allows users to search and book cars for rental.
 
-Features
+
+[Screenshot_20230307_195206](https://user-images.githubusercontent.com/54353371/223450472-238d6d85-d19f-4c95-96eb-dd5d9ad88844.png)
+Features!
 User registration and login
 Car search functionality by location and dates
 Car booking and reservation
