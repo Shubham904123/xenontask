@@ -19,11 +19,11 @@ const userSchema = mongoose.Schema({
     // },
   },
 
-  phone: {
-    type: Number,
-    required: true,
-    min: 10,
-  },
+//   phone: {
+//     type: Number,
+//     required: true,
+//     min: 10,
+//   },
   message: {
     type: String,
     required: true,
