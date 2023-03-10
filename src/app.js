@@ -27,7 +27,7 @@ hbs.registerPartials(partialsPath);
 app.use(express.urlencoded({extended:false}))
 
 app.get('/',(req , res)=>{
-    res.render('index');
+    res.render('login');
 })
 app.get('/login',(req , res)=>{
   res.render('login');
