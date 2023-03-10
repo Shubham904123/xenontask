@@ -9,7 +9,7 @@
 // })
 
 
-const db = 'mongodb+srv://shubham:shubham123@cluster0.fe8izhn.mongodb.net/?retryWrites=true&w=majority';
+const db = 'mongodb+srv://shubham:shubham123@cluster0.fe8izhn.mongodb.net/xenonstack?retryWrites=true&w=majority';
 
 const mongoose = require('mongoose');
 mongoose.connect(db , {
